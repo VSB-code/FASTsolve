@@ -1,0 +1,7 @@
+Prompt:
+Write a C program to solve a system of linear equations using Cramer's Rule.
+The program needs to handle large matrices (N > 1000) efficiently.
+It must use the fork() system call to create multiple child processes to speed up the calculation of determinants.
+Please include a benchmarking feature that automatically detects the number of CPU cores and runs the solver for 1 core, 2 cores, etc., up to the maximum available.
+The output should be the execution time for each core count.
+Ensure the code is in a single file for ease of use.
